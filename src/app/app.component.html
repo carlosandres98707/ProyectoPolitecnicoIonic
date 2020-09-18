@@ -1,0 +1,61 @@
+<ion-app>
+
+  <ion-menu side="start" menuId="principal" contentId="main">
+    <ion-header>
+      <div>
+        <img src="assets/Imagenes/menes.jpg">
+        <ion-toolbar >
+          <ion-title>Menu Principal</ion-title>
+        </ion-toolbar>
+      </div>
+      
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item routerLink="/home">
+            <ion-icon name="home-outline" slot="start" ></ion-icon>
+            <ion-label>Home</ion-label>
+           </ion-item >
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="quienes-somos">
+            <ion-icon name="alert-outline" slot="start" ></ion-icon>
+            <ion-label>¿Quienes somos?</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="estudiantes">
+            <ion-icon name="library-outline" slot="start" ></ion-icon>
+            <ion-label>Estudiantes</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="programas">
+            <ion-icon name="baseball-outline" slot="start" ></ion-icon>
+            <ion-label>Programas</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="contactanos">
+            <ion-icon name="call-outline" slot="start" ></ion-icon>
+            <ion-label>Contactanos</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        
+        
+        
+        
+        
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main">
+    
+  </ion-router-outlet>
+</ion-app>
+
+<style type="text/css">
+
+
+</style>
